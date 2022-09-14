@@ -5,7 +5,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Notes](#notes)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -20,7 +20,9 @@ Users path:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./FAQfeaturette0.png)
+
+![](./FAQfeaturette1.png)
 
 ### Links
 
@@ -37,29 +39,18 @@ Users path:
 - CSS
 - [SCSS](https://blog.logrocket.com/the-definitive-guide-to-scss/)
 
-### What I learned
+### Notes
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+$("i.fa-chevron-down", this).toggleClass("chevron-top");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title i.fa-chevron-down")
+        .removeClass("chevron-top");
 ```
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
@@ -67,7 +58,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-- [Linear Gradient](https://www.w3schools.com/css/css3_gradients.asp) - This helps me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
